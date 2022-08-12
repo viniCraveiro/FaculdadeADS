@@ -3,3 +3,9 @@
     height: 410px;
     border: 2px solid #000;
 }
+
+.centralizar{
+    margin: 0 auto;
+    height: auto;
+    border: 2px solid black;
+}
