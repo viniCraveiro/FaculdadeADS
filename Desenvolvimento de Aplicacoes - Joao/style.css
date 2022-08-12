@@ -1,11 +1,91 @@
-.imagemApresentacao{
-    width: 410px;
-    height: 410px;
-    border: 2px solid #000;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.centralizar{
-    margin: 0 auto;
+.imagemApresentacao {
+    width: 100%;
+    height: 100%;
+}
+
+figure {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nomeCurso {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: "Open Sans", sans-serif;
+}
+
+.informativoCurso {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    list-style: none;
+    margin-bottom: 10px;
+    width: 50%;
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.textopagina {
+    text-align: justify;
+    color: #637071;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.body {
+    font-size: 14px;
+    margin: 0% 10%;
+}
+
+.titulocurso {
+    text-align: center;
+}
+
+.content-header {
+    border-top: 3px solid white;
+    box-shadow: 0 -20px 0 20px #337ab7,
+        0 3px 10px rgba(0, 0, 0, .25);
+    margin-top: 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+main .informativoCurso li {
+    font-weight: bold;
+}
+
+main .informativoCurso li span {
+    font-weight: normal;
+}
+
+.content-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerCurso {
+    display: flex;
+    flex-direction: row;
     height: auto;
-    border: 2px solid black;
+}
+
+.sobreCurso h1 {
+    margin-bottom: 2px;
 }
