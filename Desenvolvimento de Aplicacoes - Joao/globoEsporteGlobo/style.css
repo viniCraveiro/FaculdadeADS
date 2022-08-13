@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.tabela_linha {
+    height: 10px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecalhoinformativo{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tabelatitulo{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 28%;
+    border: 1px solid black;
+    margin-right: 28%;
+    background-color: #06AA48;
+    color: white;
+    text-align: center;
+    height: 27px;
+    text-decoration: underline black
+}
+
+.posicaotime {
+    text-align: center;
+}
+
+.iconetime {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+
+.top1_4 {
+    background-color: rgb(2, 119, 2);
+    color: white;
+}
+
+.top5_6 {
+    background-color: rgb(75, 173, 19);
+    color: white;
+}
+
+.top7_8 {
+    background-color: rgba(128, 128, 128, 0.681);
+}
+
+.top9_10 {
+    background-color: rgba(255, 0, 0, 0.668);
+}
+
+.colunaZebrado {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.204);
+}
+
+.colunaNomeTime {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+.colunaJogos {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content-top {
+    border-bottom: 3px solid yellowgreen;
+    text-align: center;
+    background-color: #06AA48;
+    font-family: 'OpenSans';
+    color: white;
+}
+
+.centerTable {
+    margin: auto;
+}
