@@ -7,23 +7,25 @@
 //No fim, apresente se o aluno está APROVADO ou REPROVADO.
 int main() {
 	float nota1,nota2,media;
-	int cargaHoraria,frequencia;
+	int aulas,frequencia;
 	int i=1;
 	
-	printf("Informe a %d nota: ",i++);
+	printf("Informe a %d nota de 0 a 10: ",i++);
 		scanf("%f",&nota1);
-	printf("Informe a %d nota: ",i++);
+	printf("Informe a %d nota de 0 a 10: ",i++);
 		scanf("%f",&nota2);
 	
 	media=(nota1+nota2)/2;
 	
 	printf("Informe quantas aulas serao: ");
-		scanf("%d",&cargaHoraria);
+		scanf("%d",&aulas);
 	printf("Quantas presencas o aluno teve: ");
 		scanf("%d",&frequencia);
 	
-	if(cargaHoraria > frequencia*0.75){
-		printf("Aprovado! %d",&frequencia);
+	if((frequencia>=aulas*0.75) && (media>=6)){
+		printf("\nAprovado!\n\n",&frequencia);
+	}else{
+		printf("\nReprovado!\n\n");
 	}
 
     system("pause");
