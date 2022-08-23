@@ -1,0 +1,20 @@
+.grandao {
+    width: 50%;
+    height: 50px;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
+.contentEnviar{
+    width: 10%;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
