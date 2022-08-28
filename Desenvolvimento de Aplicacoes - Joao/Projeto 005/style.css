@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.coluna1 {
+    width: 33%;
+    border: 1px solid black;
+    background-color: red;
+    float: left;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.coluna2 {
+    float: left;
+    width: 49%;
+    border: 1px solid rosybrown;
+    background-color: bisque;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.coluna3 {
+    box-sizing: border-box;
+    flex-direction: row;
+    float: left;
+    width: 19%;
+    background-color: blue;
+    text-align: justify;
+    border: 1px solid red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: red;
+}
