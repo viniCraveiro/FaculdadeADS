@@ -1,0 +1,36 @@
+/* *{
+    padding: 0%;
+    margin: 0%;
+} */
+
+@media only screen and (max-width: 600px){
+    .textoImagem p {
+        display: none;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+
+.boxImagem {
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+.textoImagem {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 10% 20%;
+}
+
+.centralizar{
+    text-align: center;
+}
