@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+    font-family: sans-serif;
+}
+
+.imagemCachorro {
+    width: auto;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    text-align: center;
+    font-size: 100px;
+    color: gray;
+    font-family: sans-serif;
+    font: bold;
+}
+
+.menu {
+    font-size: 30px;
+    text-align: justify;
+}
+
+.paragrafos {
+    text-align: justify;
+}
