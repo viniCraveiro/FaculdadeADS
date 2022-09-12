@@ -1,0 +1,140 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #303134;
+}
+
+header div div img{
+    width: 25px;
+}
+
+.cabecalho-navegacao{
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    background-color: #0B5F91;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.cabecalho-menu{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: #0B5F91;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-classificacao{
+    background-color: #0B5F91;
+    border: 3px solid #0B5F91;
+    font-size: 16px;
+    color: white;
+    padding: 16px 0px 14px;
+    cursor: pointer;
+}
+
+.button-classificacao:active{
+    border-bottom: 3px solid white;
+}
+
+.backgroud-tabela{
+    background-color: #202124;
+    margin: 0px auto;
+    width: 50%;
+    color: #bdc1c6;
+}
+
+.grupoEquipe{
+    display: block;
+    margin-bottom: 8px;
+    margin-left: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #bdc1c6;
+}
+
+.tabela_linha {
+    height: 10px;
+    font-size: 16px;
+}
+
+.cabecalhoinformativo{
+    background-color: #0B5F91;
+    margin-bottom: 100px;
+}
+
+.tabelatitulo{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 28%;
+    border: 1px solid black;
+    margin-right: 28%;
+    background-color: #06AA48;
+    color: white;
+    text-align: center;
+    height: 27px;
+    text-decoration: underline black
+}
+
+.posicaotime {
+    text-align: center;
+}
+
+.iconetime {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+
+.top1_4 {
+    background-color: rgb(2, 119, 2);
+    color: white;
+}
+
+.top5_6 {
+    background-color: rgb(75, 173, 19);
+    color: white;
+}
+
+.top7_8 {
+    background-color: rgba(128, 128, 128, 0.681);
+}
+
+.top9_10 {
+    background-color: rgba(255, 0, 0, 0.668);
+}
+
+.colunaZebrado {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.204);
+}
+
+.colunaNomeTime {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+.colunaJogos {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content-top {
+    border-bottom: 3px solid yellowgreen;
+    text-align: center;
+    background-color: #06AA48;
+    color: white;
+}
+
+.centerTable {
+    margin: auto;
+}

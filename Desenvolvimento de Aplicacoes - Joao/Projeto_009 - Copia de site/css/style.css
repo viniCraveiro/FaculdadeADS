@@ -1,61 +1,269 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap&quot;");
- html {
-    scroll-behavior: smooth;
-  }
 
-  body {
-    font-family: "Inter", sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    color: #888;
-    overflow-x: hidden;
-    font-size: 15px;
-    background-color: #ff6b81;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-  .logo-header{
-    width: 10%;
-    margin-left: 8%;
-  }
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #888;
+  overflow-x: hidden;
+  font-size: 15px;
+  background-color: #ff6b81;
+}
 
-  .button-top{
-    border: 1.9px solid white;
-    width: 12%;
-    height: 40px;
-    border-radius: 4px;
-    background-color: #ff6b81;
-    color: white;
-    float: right;
-    margin-right: 8%;
-  }
-  .button-top:hover{
-    background-color: white;
-    color: #ff6b81;
-  }
+.logo-header {
+  width: 10%;
+  margin-left: 8%;
+}
 
-  header{
-    margin-top: 2%;
-  }
+.button-top {
+  border: 1.9px solid white;
+  width: 12rem;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #ff6b81;
+  color: white;
+  float: right;
+  margin-right: 8%;
+  cursor: pointer;
+}
 
-  h1{
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    font-weight: bold;
-    margin-top: 5%;
-  }
+.button-top:hover {
+  background-color: white;
+  color: #ff6b81;
+}
 
-  .content-subtitle{
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 2%;
-  }
+header {
+  margin-top: 2%;
+}
 
-  .box-phone{
-    margin-top: 13%;
-    text-align: center;
-  }
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+.content-subtitle {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 2%;
+}
+
+.box-phone {
+  margin-top: 3%;
+  text-align: center;
+}
+
+.box-button {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.button-apple {
+  border: 1.9px solid white;
+  width: 10rem;
+  height: 40px;
+  border-radius: 4px;
+  background-color: white;
+  color: #ff6b81;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-googlePlay {
+  border: 1.9px solid white;
+  width: 10rem;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #ff6b81;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.apresentacao {
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+div.apresentacao p {
+  padding-top: 3rem;
+  color: #ff6b81;
+  font-weight: 600;
+}
+
+div.apresentacao h2 {
+  margin-top: 1.5%;
+  font-weight: 800;
+  color: black;
+  margin-bottom: 2%;
+  font-size: 25px;
+}
+
+
+.box-opcoes1 {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+
+}
+
+.box-opcoes2 {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  background-color: white;
+  padding: 2rem 2rem;
+  border-radius: 8px;
+  max-height: 256px;
+  margin-left: 2%;
+  margin-top: 1.5%;
+  margin-bottom: 0.8%;
+  box-shadow: 15px 15px 40px -40px;
+  border: 0.5px solid rgba(204, 187, 187, 0.185);
+}
+
+.card:first-child {
+  margin-left: 0%;
+}
+
+.card-logo {
+  width: 40%;
+}
+
+.card-icon {
+  background-color: #ff6b81;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  box-shadow: 0.5px 3.5px 2px rgba(204, 187, 187, 0.3);
+}
+
+div.box-opcoes1 section.card p {
+  margin-top: 10px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+div.box-opcoes1 section.card span {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #948B81;
+  font-size: 12px;
+}
+
+div.box-opcoes2 section.card p {
+  margin-top: 10px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+div.box-opcoes2 section.card span {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #948B81;
+  font-size: 12px;
+}
+
+.tituloEstatisticas {
+  background-color: #ff6b81;
+  color: white;
+  margin-top: 4%;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subTituloEstatisticas {
+  margin-top: 1%;
+  text-align: center;
+  background-color: #ff6b81;
+  color: white;
+  margin-bottom: 3%;
+}
+
+
+.infoEstatisticas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  color: white;
+  width: 100%
+}
 
 
 
+
+.maiorEstatisticas {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+.button-curtir {
+  border: 1.9px solid white;
+  width: 4rem;
+  height: 2rem;
+  border-radius: 4px;
+  background-color: white;
+  color: #ff6b81;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.button-curtir:hover {
+  background-color: #ff6b81;
+  color: white;
+}
+
+
+/* RODAPÉ (FOOTER) */
+footer {
+  background-color: #081828;
+  height: 100px;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: #D4DADA;
+}
+
+footer figure img {
+  padding-top: 2%;
+  width: 15px;
+  padding-left: 10px;
+  padding-bottom: 2%;
+}
+
+footer figure img:first-child {
+  padding-left: 0%;
+}
