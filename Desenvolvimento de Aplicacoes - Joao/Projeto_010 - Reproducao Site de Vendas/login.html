@@ -10,24 +10,19 @@
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/styleLogin.css">
 
-<body>
+<body class="box-center">
     <div class="container-fundo">
-        <p></p>
         <div class="container-credencial">
-            <div><img src="img/logo-app-novo.PNG" alt=""></div>
-            <p>Bem-vindo! 👋</p>
-            <p>Digite suas credenciais para entrar.</p>
-            <form action="" id="credenciais">
-                <label>E-MAIL OU LOGIN</label>
-                <br>
-                <input id="inputCredencial" type="text" value="Digite aqui">
-                <br>
-                <label>SENHA:</label>
-                <br>
-                <input id="inputCredencial" type="password" value="◘◘◘◘◘◘◘◘◘◘◘">
-                <br>
-                <input id="buttonEntrar" type="submit" value="Entrar">
-            </form>
+            <div>
+                <img class="logoSvendas"src="img/logo-app-novo.PNG" alt="">
+            </div>
+            <p class="boasVindas">Bem-vindo! 👋</p>
+            <p class="digiteCredenciais">Digite suas credenciais para entrar.</p>
+            <p class="labelCredenciais">E-MAIL OU LOGIN</p>
+            <input id="inputCredencial" type="text" name="login" placeholder="  Digite aqui">
+            <p class="labelCredenciais">SENHA:</p>
+            <input id="inputCredencial" type="password" name="password" placeholder="  ••••••••">
+            <input id="buttonEntrar" type="submit" value="Entrar">
         </div>
     </div>
 </body>
