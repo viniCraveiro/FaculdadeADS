@@ -14,8 +14,8 @@ int main(){
 		media=media+idade[x];
 	}
 	
-	media=media/7;
-	printf("A media de idade: %.2f",media);
+	media=media/tot;
+	printf("A media de idade: %.2f\n",media);
 
 system("pause");
 
