@@ -3,22 +3,35 @@
 #include <stdlib.h>
 #include <conio.h>
 #include<time.h>
-#define tot 15
+#define tot 8
+	int v1[tot],v2[tot];
+
+void sorteia(){
+	int i,x;
+	for (i=0; i<=tot; i++){
+		v1[i]=rand()%100;
+
+	}
+}
+
+void troca(int *a){
+	int i,x=0;
+		for (i=tot; i>=0; i--){
+			v2[x]=v1[i];
+			printf("%d. Vetor1: %d | %d. Vetor2: %d\n",i,v1[i],x,v2[x]);
+			x++;
+		}
+}
+
 
 int main(){
-	int y,x, n[tot];
+	int i;
+	printf("Hello dev!\n\n");
 	srand(time(NULL));
-	y=tot;
-	for (x=tot; x>=0; x--){
-		
-		n[x]=rand()%100;
-		
-		printf("%d: %d\n",y,n[x]);
-		y--;
-	}
-	
+	sorteia();
+	troca(&v1[i]);
 
-system("pause");
+	system("pause");
 
 }
 
