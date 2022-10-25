@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styleIndex.css">
 <body>
-    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Nome da companhia</a>
-        <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+    <nav class="navbar navbar-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#"></a>
+        <input class="form-control form-control-dark w-100" type="text" placeholder="Digite algo para procurar.." aria-label="Search">
         <ul class="navbar-nav px-3">
           <li class="nav-item text-nowrap">
             <a class="nav-link" href="#">Sair</a>
@@ -20,18 +20,13 @@
         </ul>
       </nav>
   
-      <div class="container-fluid">
+      <div class="container-fluid flex-shrink-0 flex-column">
         <div class="row">
-          <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <nav class="menualtura col-md-3 d-none d-md-block bg-white sidebar ">
+            <img class="navbar-brand-img logo-light logo-large" src="img/logo-app-novo.PNG" alt="">
             <div class="sidebar-sticky">
-              <ul class="nav flex-column">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">
-                    <span data-feather="home"></span>
-                    Dashboard <span class="sr-only">(atual)</span>
-                  </a>
-                </li>
-                <li class="nav-item">
+              <ul class=" nav flex-column">
+                <li class="menumargintop nav-item active">
                   <a class="nav-link" href="#">
                     <img src="img/botao-home.png" alt="">
                     <span data-feather="file"></span>
@@ -83,21 +78,21 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">
-                    <img class="img-menu" src="https://cdn-icons-png.flaticon.com/512/4302/4302401.png" alt="">
+                    <img class="img-menu" src="img/arquivo.png" alt="">
                     <span data-feather="file-text"></span>
                     Por Arquivo
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">
-                    <img class="img-menu" src="https://cdn-icons-png.flaticon.com/512/755/755976.png" alt="">
+                    <img class="img-menu" src="img/relatorios.png" alt="">
                     <span data-feather="file-text"></span>
                     Comparativo
                   </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">
-                    <img src="https://cdn-icons-png.flaticon.com/512/7519/7519510.png" alt="">
+                    <img src="img/coroa.png" alt="">
                     <span data-feather="file-text"></span>
                     Melhores Vendas
                   </a>
@@ -106,6 +101,16 @@
             </div>
           </nav>
 
+          <!-- <nav class="navbar navbar-dark flex-md-nowrap p-0 shadow">
+            <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#"></a>
+            <input class="form-control form-control-dark w-100" type="text" placeholder="Digite algo para procurar.." aria-label="Search">
+            <ul class="navbar-nav px-3">
+              <li class="nav-item text-nowrap">
+                <a class="nav-link" href="#">Sair</a>
+              </li>
+            </ul>
+          </nav> -->
+      
 
 </body>
 </html>
