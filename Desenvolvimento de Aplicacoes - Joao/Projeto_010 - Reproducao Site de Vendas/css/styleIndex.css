@@ -7,6 +7,12 @@ body{
     border-radius: 7px;
 }
 
+.blue{
+    background-color: blue;
+}
+
+
+
 .red{
     background-color: red;
 }
@@ -17,4 +23,17 @@ body{
 
 .menualtura{
     height: 500px;
+}
+
+.pesquisa{
+    margin-top: 3px;
+    width: 950px;
+}
+
+#logopesquisa{
+    background-image: url(/img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    padding-left: 1.3em;
 }
