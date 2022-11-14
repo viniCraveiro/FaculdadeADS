@@ -26,13 +26,13 @@ void registraDados(){
 //	printf("Informe a idade do %d aluno: ",i);
 //	scanf("%d",&idade);
 //	fflush(stdin);
-	solicitaNota();
+//	solicitaNota();
 	do{
 		printf("o aluno %d possui SUB? (S/N):",i);
 		scanf("%c",&fezSub);
 		fflush(stdin);
  	}while(fezSub == 'N' && fezSub == 'n');
-
+	solicitaNotaSub();
 	printf("Aluno Cadastrado\n");
 	x++;
 	}
