@@ -20,6 +20,7 @@ CREATE TABLE DEPARTAMENTOS (
 CREATE TABLE EMPREGADOS (
     CODIGO NUMBER (5) PRIMARY KEY NOT NULL,
     NOME VARCHAR2 (50),
+    SOBRENOME VARCHAR2 (50),
     DATA_ADMISSAO DATE,
     DATA_RESCISAO DATE,
     SALARIO NUMBER (9, 2),
@@ -44,10 +45,11 @@ INSERT INTO EMPREGADOS VALUES (
 INSERT INTO EMPREGADOS VALUES (
     1,
     'VINICIUS',
+    'CRAVEIRO',
     TO_DATE ('19/03/2022', 'DD/MM/YYYY'),
     NULL,
     100.00,
-    'DESENVOLVER',
+    'DEVELOPER',
     1
 );
 
@@ -99,3 +101,10 @@ BEGIN
         || 'Total Descontado R$: '
         || VSALDESCONTOS );
 END;
+-------------------------------------------------------------------------------------------
+  --Crie um bloco de PL/SQL  que receba uma porcentagem e um código de funcionário 
+  --e recalcule o salário de todos os funcionários que estão empregados, 
+  --mostrando na tela o seu nome, salário atual e salário projetado. 
+  --Realize o update e caso o funcionário não exista, envie a mensagem para o usuário.
+
+  
