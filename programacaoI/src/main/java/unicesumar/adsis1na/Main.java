@@ -1,4 +1,4 @@
-package org.example;
+package unicesumar.adsis1na;
 
 import java.util.Random;
 import java.util.Scanner;
