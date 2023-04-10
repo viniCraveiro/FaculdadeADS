@@ -2,7 +2,7 @@ import { Calculator } from "./Calculadora";
 import { ICalculo } from "./Calculo";
 import { Operacao } from "./operacoes.ts/Operacao";
 
-describe('test of calculator', () => {
+describe("test of calculator", () => {
     it('Test Sum', () => {
         const calculator = new Calculator();
         const result = calculator.sum(4, 2);
