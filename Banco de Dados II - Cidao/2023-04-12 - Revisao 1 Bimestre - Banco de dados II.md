@@ -2,14 +2,14 @@
 	%type - define a variavel com o mesmo tipo da coluna da tabela
 	%rowtype - define a mesma estrutura da tabela
 
-# Logica
+# LOGICA:
 	IF (condição) THEN
 	    ELSEIF (condição) THEN
 	    ELSE
 	END IF;
 
 
-# Laço de repetição
+# LAÇO DE REPETIÇÃO:
 -"Precisa de condição de parada"
 	LOOP
 	  IF(condição) THEN
@@ -27,7 +27,7 @@
 	FOR variavel IN valor LOOP
 	END LOOP;
 
-## Cursor
+## CURSOR
 	Sempre ligado a um SELECT
 	Declarado como uma variavel
 EX:
@@ -39,7 +39,7 @@ BEGIN
   FETCH C_Livro INTO r_Livro;   --Posiciona na linha (1a) do cursor
   CLOSE C_Livro; 		--Fecha cursor
 
-- USANDO LOOP
+- USANDO LOOP:
   LOOP
     FETCH C_Livro INTO r_Livro;
     IF C_Livro%NOTFOUND THEN	--Tem que testar a condição de parada
@@ -47,7 +47,7 @@ BEGIN
     END IF;
   END LOOP;
 
-- USANDO WHILE
+- USANDO WHILE:
   FETCH C_Livro INTO r_Livro; 	--Posiciona para testar a condição
   WHILE C_Livro%FOUND LOOP
     FETCH C_Livro INTO r_Livro;	--Atualizar a condição de parada
@@ -99,3 +99,13 @@ BEGIN
     INSERT INTO TABELALOG(VALOR_NOVO, VALOR_ANTIGO)
     VALUES (:NEW.VALOR, :OLD.VALOR);
 END;
+
+## PROCEDURE E FUNCTION
+# FUNCTION
+- SO TEM PARAMETROS DE ENTRADA (IN);
+- RETORNA UM E SOMENTE UM VALOR (RETURN OBRIGATORIO)
+
+# PROCEDURE
+- TEM PARAMETROS DE ENTRADA (IN), SAIDA(OUT), ENTRADA E SAIDA(IN OUT);
+- NAO É OBRIGATORIO TER SAIDA
+- SE TIVER SAIDA É PELO PARAMETRO OUT OU IN OUT;
