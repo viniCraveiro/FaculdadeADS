@@ -10,7 +10,7 @@ describe("testa a classe Identifier", () => {
         const resultado = identifier.isValid("P7tu52");
 
 
-        // expect(resultado).toBeTruthy();
+        expect(resultado).toBeTruthy();
 
     });
 
@@ -22,7 +22,7 @@ describe("testa a classe Identifier", () => {
         const resultado = identifier.isValid("7tu52");
 
 
-        // expect(resultado).toBeFalsy();
+        expect(resultado).toBeFalsy();
 
     });
 
@@ -34,7 +34,7 @@ describe("testa a classe Identifier", () => {
         const resultado = identifier.isValid("ptu52");
 
 
-        // expect(resultado).toBeFalsy();
+        expect(resultado).toBeFalsy();
 
     });
 
@@ -46,7 +46,7 @@ describe("testa a classe Identifier", () => {
         const resultado = identifier.isValid("P7tu52yJ19");
 
 
-        // expect(resultado).toBeTruthy();
+        expect(resultado).toBeTruthy();
 
     });
 
@@ -58,7 +58,7 @@ describe("testa a classe Identifier", () => {
         const resultado = identifier.isValid("P7tu52yJ19k");
 
 
-        // expect(resultado).toBeFalsy();
+        expect(resultado).toBeFalsy();
 
     });
 
